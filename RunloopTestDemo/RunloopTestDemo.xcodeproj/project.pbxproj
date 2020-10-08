@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86191A08252CA877008CF5C2 /* TouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86191A07252CA877008CF5C2 /* TouchView.m */; };
+		86191A0E252F0C48008CF5C2 /* FYRunLoopThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 86191A0D252F0C48008CF5C2 /* FYRunLoopThread.m */; };
 		86E9FF32252B00E500056891 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E9FF31252B00E500056891 /* AppDelegate.m */; };
 		86E9FF35252B00E500056891 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E9FF34252B00E500056891 /* SceneDelegate.m */; };
 		86E9FF38252B00E500056891 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E9FF37252B00E500056891 /* ViewController.m */; };
@@ -37,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		86191A06252CA877008CF5C2 /* TouchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchView.h; sourceTree = "<group>"; };
+		86191A07252CA877008CF5C2 /* TouchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchView.m; sourceTree = "<group>"; };
+		86191A0C252F0C48008CF5C2 /* FYRunLoopThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYRunLoopThread.h; sourceTree = "<group>"; };
+		86191A0D252F0C48008CF5C2 /* FYRunLoopThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYRunLoopThread.m; sourceTree = "<group>"; };
 		86E9FF2D252B00E500056891 /* RunloopTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunloopTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86E9FF30252B00E500056891 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		86E9FF31252B00E500056891 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -146,6 +152,10 @@
 			children = (
 				86E9FF6F252B020000056891 /* FYThread.h */,
 				86E9FF70252B020000056891 /* FYThread.m */,
+				86191A06252CA877008CF5C2 /* TouchView.h */,
+				86191A07252CA877008CF5C2 /* TouchView.m */,
+				86191A0C252F0C48008CF5C2 /* FYRunLoopThread.h */,
+				86191A0D252F0C48008CF5C2 /* FYRunLoopThread.m */,
 			);
 			path = SubClasses;
 			sourceTree = "<group>";
@@ -279,8 +289,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86191A08252CA877008CF5C2 /* TouchView.m in Sources */,
 				86E9FF38252B00E500056891 /* ViewController.m in Sources */,
 				86E9FF32252B00E500056891 /* AppDelegate.m in Sources */,
+				86191A0E252F0C48008CF5C2 /* FYRunLoopThread.m in Sources */,
 				86E9FF43252B00E800056891 /* main.m in Sources */,
 				86E9FF35252B00E500056891 /* SceneDelegate.m in Sources */,
 				86E9FF71252B020000056891 /* FYThread.m in Sources */,
